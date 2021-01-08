@@ -1,6 +1,6 @@
 <template>
   <form @submit="handleSubmit">
-    <input v-model="value" placeholder="Pokemon Name">
+    <input class="border py-2 px-3 rounded-md text-grey-darkest" v-model="value" placeholder="Pokemon Name" required>
   </form>
 </template>
 
